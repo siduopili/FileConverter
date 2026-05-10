@@ -1,0 +1,21 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+installer/
+*.jar
+*.class
+
+# Temp
+classpath.txt
+dependency-reduced-pom.xml
