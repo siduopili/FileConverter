@@ -27,7 +27,7 @@ public class MainWindow extends JFrame {
     private SwingWorker<?, ?> currentWorker;
 
     public MainWindow() {
-        setTitle("万能文件格式转换器");
+        setTitle("文档格式转换器");
         setSize(600, 620);
         setMinimumSize(new Dimension(500, 500));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -45,7 +45,7 @@ public class MainWindow extends JFrame {
         contentPane.setBorder(new EmptyBorder(15, 15, 15, 15));
         setContentPane(contentPane);
 
-        JLabel title = new JLabel("万能文件格式转换器", JLabel.CENTER);
+        JLabel title = new JLabel("文档格式转换器", JLabel.CENTER);
         title.setFont(new Font("Microsoft YaHei", Font.BOLD, 20));
         title.setForeground(new Color(50, 50, 80));
         title.setBorder(new EmptyBorder(0, 0, 10, 0));

@@ -14,7 +14,6 @@ public class DropPanel extends JPanel {
     private String placeholder;
     private Color currentBorder = borderColor;
     private Color currentBg = bgColor;
-    private Timer animTimer;
 
     public DropPanel(String placeholder) {
         this.placeholder = placeholder;
@@ -25,8 +24,6 @@ public class DropPanel extends JPanel {
                 new EmptyBorder(30, 30, 30, 30)
         ));
         setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-
-        animTimer = new Timer(50, e -> repaint());
     }
 
     public void setHover(boolean h) {

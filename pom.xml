@@ -9,7 +9,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Universal File Converter</name>
+    <name>Document Format Converter</name>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -45,54 +45,11 @@
             <version>3.0.3</version>
         </dependency>
 
-        <!-- TwelveMonkeys for extended image format support -->
-        <dependency>
-            <groupId>com.twelvemonkeys.imageio</groupId>
-            <artifactId>imageio-jpeg</artifactId>
-            <version>3.11.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.twelvemonkeys.imageio</groupId>
-            <artifactId>imageio-bmp</artifactId>
-            <version>3.11.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.twelvemonkeys.imageio</groupId>
-            <artifactId>imageio-webp</artifactId>
-            <version>3.11.0</version>
-        </dependency>
-
-        <!-- Apache Commons Compress for archives -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-compress</artifactId>
-            <version>1.26.2</version>
-        </dependency>
-
-        <!-- Commonmark for Markdown -->
+        <!-- Commonmark for Markdown 解析 -->
         <dependency>
             <groupId>org.commonmark</groupId>
             <artifactId>commonmark</artifactId>
             <version>0.21.0</version>
-        </dependency>
-
-        <!-- Gson for JSON -->
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.11.0</version>
-        </dependency>
-
-        <!-- Jave2 for ffmpeg wrapper -->
-        <dependency>
-            <groupId>ws.schild</groupId>
-            <artifactId>jave-core</artifactId>
-            <version>3.5.0</version>
-        </dependency>
-        <dependency>
-            <groupId>ws.schild</groupId>
-            <artifactId>jave-nativebin-win64</artifactId>
-            <version>3.5.0</version>
         </dependency>
     </dependencies>
 
